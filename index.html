@@ -1,0 +1,34 @@
+---
+layout: default
+---
+
+{% for post in paginator.posts %}
+
+<div class="post">
+  <h2><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
+  {% if post.tags %}
+  <p>
+    {% for tag in post.tags %}
+      {% include tag.html tag=tag %}
+    {% endfor %}
+  </p>
+  {% endif %}
+  <p>{{ post.description }}</p>
+</div>
+
+{% endfor %}
+
+<div class="text-center form-group">
+  <div class="btn-group" role="group" aria-label="Basic example">
+    {% if paginator.next_page %}
+    <a class="btn btn-lg btn-outline-secondary" href="{{ paginator.next_page_path | prepend: site.baseurl }}">Older</a>
+    {% else %}
+    <a class="btn btn-lg btn-outline-secondary disabled" href="#">Older</a>
+    {% endif %}
+    {% if paginator.previous_page %}
+    <a class="btn btn-lg btn-outline-secondary" href="{{ paginator.previous_page_path | prepend: site.baseurl }}">Newer</a>
+    {% else %}
+    <a class="btn btn-lg btn-outline-secondary disabled" href="#">Newer</a>
+    {% endif %}
+  </div>
+</div>

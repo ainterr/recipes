@@ -1,0 +1,9 @@
+<li>
+  {% if ingredient["qnty"] %}
+    <strong>{{ ingredient["qnty"] }}</strong>
+  {% endif %}
+  {{ ingredient["name"] }}
+  {% if ingredient["note"] %}
+    <em>({{ ingredient["note"] }})</em>
+  {% endif %}
+</li>

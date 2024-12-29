@@ -1,0 +1,73 @@
+---
+layout: default
+---
+
+<div class="recipe">
+  <article>
+    <header class="recipe-header">
+      <h2 class="recipe-title">{{ page.title }}</h2>
+      <p class="recipe-source"><small>Source: {{ page.source }}</small></p>
+    </header>
+
+    {% if page.tags %}
+      <p>
+        {% for tag in page.tags %}
+          {% include tag.html tag=tag %}
+        {% endfor %}
+      </p>
+    {% endif %}
+
+    {% if page.description %}
+      <p>{{ page.description }}</p>
+    {% endif %}
+
+    {% if page.ingredients %}
+      <h3>Ingredients</h3>
+      <ul>
+        {% for ingredient in page.ingredients %}
+          {% if ingredient["group"] %}
+            </ul>
+            <h4>{{ ingredient["group"] }}</h4>
+            <ul>
+              {% for ingredient in ingredient["ingredients"] %}
+                {% include ingredient.html ingredient=ingredient %}
+              {% endfor %}
+            </ul>
+            <ul>
+          {% else %}
+            {% include ingredient.html ingredient=ingredient %}
+          {% endif %}
+        {% endfor %}
+      </ul>
+    {% endif %}
+    
+    {% if page.instructions %}
+      <h3>Instructions</h3>
+      <ol>
+        {% for instruction in page.instructions %}
+          {% if instruction["group"] %}
+            </ol>
+            <h4>{{ instruction["group"] }}</h4>
+            <ol>
+              {% for instruction in instruction["instructions"] %}
+                <li>{{ instruction }}</li>
+              {% endfor %}
+            </ol>
+            <ol>
+          {% else %}
+            <li>{{ instruction }}</li>
+          {% endif %}
+        {% endfor %}
+      </ol>
+    {% endif %}
+
+    {% if page.notes %}
+      <h3>Notes</h3>
+      <ul>
+        {% for note in page.notes %}
+          <li>{{ note }}</li>
+        {% endfor %}
+      </ul>
+    {% endif %}
+  </article>
+</div>

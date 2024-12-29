@@ -1,0 +1,10 @@
+title: "@ainterr:recipes"
+author: Alex Interrante-Grant
+description: >-
+  A collection of recipes that I don't want to lose.
+baseurl: "/recipes"
+url: "https://ainterr.dev"
+
+plugins: [jekyll-paginate]
+
+paginate: 5
