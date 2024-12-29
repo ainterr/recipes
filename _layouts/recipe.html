@@ -69,6 +69,10 @@ layout: default
         {% endfor %}
       </ul>
     {% endif %}
+
+    {% if page.serves %}
+      <p class="recipe-serves"><small>Serves: {{ page.serves }}</small></p>
+    {% endif %}
   </article>
 </div>
 
