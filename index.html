@@ -21,17 +21,19 @@ layout: default
   </div>
 {% endfor %}
 
-<div class="text-center form-group">
-  <div class="btn-group" role="group" aria-label="Basic example">
-    {% if paginator.next_page %}
-    <a class="btn btn-lg btn-outline-secondary" href="{{ paginator.next_page_path | prepend: site.baseurl }}">Older</a>
-    {% else %}
-    <a class="btn btn-lg btn-outline-secondary disabled" href="#">Older</a>
-    {% endif %}
-    {% if paginator.previous_page %}
-    <a class="btn btn-lg btn-outline-secondary" href="{{ paginator.previous_page_path | prepend: site.baseurl }}">Newer</a>
-    {% else %}
-    <a class="btn btn-lg btn-outline-secondary disabled" href="#">Newer</a>
-    {% endif %}
+<div class="py-3">
+  <div class="text-center form-group">
+    <div class="btn-group" role="group" aria-label="Basic example">
+      {% if paginator.next_page %}
+      <a class="btn btn-secondary" href="{{ paginator.next_page_path | prepend: site.baseurl }}">Older</a>
+      {% else %}
+      <a class="btn btn-secondary disabled" href="#">Older</a>
+      {% endif %}
+      {% if paginator.previous_page %}
+      <a class="btn btn-secondary" href="{{ paginator.previous_page_path | prepend: site.baseurl }}">Newer</a>
+      {% else %}
+      <a class="btn btn-secondary disabled" href="#">Newer</a>
+      {% endif %}
+    </div>
   </div>
 </div>
