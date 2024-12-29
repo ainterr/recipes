@@ -1,0 +1,103 @@
+---
+layout: recipe
+title: Maple-Pecan Sticky Buns
+source: NTY Cooking
+tags: breakfast baking
+description: Classic pecan sticky buns.
+ingredients:
+  - group: Dough
+    ingredients:
+    - qnty: 2 tsp
+      name: active dry yeast
+      note: about 1 packet
+    - qnty: 1 cup
+      name: buttermilk
+      note: warmed to about 100 degrees
+    - qnty: 2 tbsp
+      name: granulated sugar
+    - qnty: 4 1/2 cups
+      name: flour
+      note: all-purpose
+    - qnty: pinch
+      name: salt
+    - qnty: 8 tbsp
+      name: unsalted butter
+      note: softened, cut into large pieces
+    - qnty: 3 large
+      name: eggs
+      note: lightly beaten
+  - group: Topping
+    ingredients:
+    - qnty: 1/2 cup
+      name: maple syrup
+    - qnty: 1/2 cup
+      name: light brown sugar
+      note: packed
+    - qnty: 6 tbsp
+      name: unsalted butter
+    - qnty: pinch
+      name: salt
+    - qnty: 2 cups
+      name: pecans
+      note: chopped, toasted
+  - group: Filling
+    ingredients:
+    - qnty: 2/3 cup
+      name: light brown sugar
+      note: packed
+    - qnty: 1 tbsp
+      name: cinnamon
+    - qnty: 1 tsp
+      name: cardamom
+    - qnty: pinch
+      name: salt
+    - qnty: 6 tbsp
+      name: unsalted butter
+instructions:
+  - Combine the yeast, buttermilk and 1 tablespoon sugar, and let sit until
+    foamy, about 5 minutes.
+  - To the bowl of a stand mixer fitted with a dough hook, add the flour, salt
+    and remaining 1 tablespoon sugar. Stir to combine, then add the butter and
+    toss to coat in the flour. Add the eggs and buttermilk mixture, then mix on
+    low to combine, about 1 or 2 minutes.
+  - Increase speed to medium, and mix the dough until it is soft, billowy and
+    clearing the sides of the bowl, but still sticking to the bottom, 8 to 10
+    minutes. If the dough seems very, very soft and still sticks to the sides
+    of the bowl, add more flour, a tablespoon at a time (up to about 4
+    tablespoons).
+  - Lightly grease a separate large bowl with butter and transfer the dough to
+    it. Turn the dough to coat with butter, then cover the bowl with a kitchen
+    towel. Let the dough rise in a warm spot until almost doubled in size,
+    about 1 hour, then refrigerate the dough for 1 hour more.
+  - In a medium saucepan (to prevent boiling over), combine the maple syrup,
+    brown sugar, butter and salt. Bring to a boil over medium and cook for 1
+    minute. The mixture will thicken slightly. Pour the mixture into a metal
+    9-by-13-inch baking pan and tilt the pan to evenly cover the bottom with
+    the syrup.  Sprinkle the pecans evenly over the top, and set aside.
+  - In a small bowl, combine the brown sugar, cinnamon, cardamom and salt.
+  - Turn the dough out onto a floured surface and pat or roll it into a
+    12-by-16-inch rectangle that’s ¼-inch thick. Gently spread the softened
+    butter over the dough, leaving about 1 inch of unbuttered dough on the long
+    edge furthest from you. Sprinkle the sugar mixture evenly over the top of
+    the butter. From the long end closest to you, roll the dough into a tight
+    log. With the seam side down, use a serrated knife or length of floss to
+    cut the log into 12 even pieces.
+  - Place the rolls spiral side up into the prepared pan, cover and let rise
+    until puffy but not quite doubled in size, about 45 minutes. (This may take
+    a little longer if you refrigerated the dough for longer than 1 hour after
+    the first rise.) If you’d like to bake them later, you can refrigerate the
+    rolls in the pan before this second rise for up to 24 hours. Let the rolls
+    rise at room temperature until almost doubled in size before baking. They
+    will take longer to rise after chilling, depending on the ambient
+    temperature.
+  - Heat oven to 350 degrees and bake rolls for 30 to 35 minutes, or until the
+    rolls are golden brown and the caramel is bubbling a bit around the edges.
+    Carefully run an offset spatula or thin knife around the edges of the pan.
+    Let the rolls cool in the pan on a rack for about 5 minutes, then flip them
+    out onto a serving tray or sheet pan. Let cool for a minute or two, then
+    enjoy warm.
+notes:
+ - Can be made a day ahead up to the final rise and left to sit in the fridge
+   overnight.
+yield: 12 buns.
+---
