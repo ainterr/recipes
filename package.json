@@ -1,9 +1,12 @@
 {
   "name": "recipes",
+  "type": "module",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
+    "prestart": "node scripts/build.js",
     "start": "ng serve",
+    "prebuild": "node scripts/build.js",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test"
