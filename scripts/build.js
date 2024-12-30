@@ -23,6 +23,7 @@ fs.readdir(recipesPath, (err, files) => {
   let i = 0;
   files.forEach((file) => {
     const filePath = path.join(recipesPath, file);
+    const name = path.basename(filePath, path.extname(filePath));
 
     fs.stat(filePath, (err, stats) => {
       if (err) {
@@ -31,7 +32,7 @@ fs.readdir(recipesPath, (err, files) => {
       }
 
       if (stats.isFile()) {
-        data[file] = yaml.load(fs.readFileSync(filePath, "utf8"));
+        data[name] = yaml.load(fs.readFileSync(filePath, "utf8"));
 
         console.log("[+] parsed: " + file);
       }

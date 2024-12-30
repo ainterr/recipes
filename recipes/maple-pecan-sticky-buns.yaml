@@ -7,52 +7,52 @@ description: Classic pecan sticky buns.
 ingredients:
   - group: Dough
     ingredients:
-    - qnty: 2 tsp
-      name: active dry yeast
-      note: about 1 packet
-    - qnty: 1 cup
-      name: buttermilk
-      note: warmed to about 100 degrees
-    - qnty: 2 tbsp
-      name: granulated sugar
-    - qnty: 4 1/2 cups
-      name: flour
-      note: all-purpose
-    - qnty: pinch
-      name: salt
-    - qnty: 8 tbsp
-      name: unsalted butter
-      note: softened, cut into large pieces
-    - qnty: 3 large
-      name: eggs
-      note: lightly beaten
+      - qnty: 2 tsp
+        name: active dry yeast
+        note: about 1 packet
+      - qnty: 1 cup
+        name: buttermilk
+        note: warmed to about 100 degrees
+      - qnty: 2 tbsp
+        name: granulated sugar
+      - qnty: 4 1/2 cups
+        name: flour
+        note: all-purpose
+      - qnty: pinch
+        name: salt
+      - qnty: 8 tbsp
+        name: unsalted butter
+        note: softened, cut into large pieces
+      - qnty: 3 large
+        name: eggs
+        note: lightly beaten
   - group: Topping
     ingredients:
-    - qnty: 1/2 cup
-      name: maple syrup
-    - qnty: 1/2 cup
-      name: light brown sugar
-      note: packed
-    - qnty: 6 tbsp
-      name: unsalted butter
-    - qnty: pinch
-      name: salt
-    - qnty: 2 cups
-      name: pecans
-      note: chopped, toasted
+      - qnty: 1/2 cup
+        name: maple syrup
+      - qnty: 1/2 cup
+        name: light brown sugar
+        note: packed
+      - qnty: 6 tbsp
+        name: unsalted butter
+      - qnty: pinch
+        name: salt
+      - qnty: 2 cups
+        name: pecans
+        note: chopped, toasted
   - group: Filling
     ingredients:
-    - qnty: 2/3 cup
-      name: light brown sugar
-      note: packed
-    - qnty: 1 tbsp
-      name: cinnamon
-    - qnty: 1 tsp
-      name: cardamom
-    - qnty: pinch
-      name: salt
-    - qnty: 6 tbsp
-      name: unsalted butter
+      - qnty: 2/3 cup
+        name: light brown sugar
+        note: packed
+      - qnty: 1 tbsp
+        name: cinnamon
+      - qnty: 1 tsp
+        name: cardamom
+      - qnty: pinch
+        name: salt
+      - qnty: 6 tbsp
+        name: unsalted butter
 instructions:
   - Combine the yeast, buttermilk and 1 tablespoon sugar, and let sit until
     foamy, about 5 minutes.
@@ -97,6 +97,6 @@ instructions:
     out onto a serving tray or sheet pan. Let cool for a minute or two, then
     enjoy warm.
 notes:
- - Can be made a day ahead up to the final rise and left to sit in the fridge
-   overnight.
+  - Can be made a day ahead up to the final rise and left to sit in the fridge
+    overnight.
 yield: 12 buns.
