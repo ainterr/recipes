@@ -1,22 +1,23 @@
 import { Component } from "@angular/core";
 import { HttpClient } from "@angular/common/http";
-import { CommonModule } from "@angular/common";
 
+import { Database } from "../types";
 import { HeroComponent } from "../hero/hero.component";
+import { RecipeListComponent } from "../recipe-list/recipe-list.component";
 
 @Component({
   selector: "app-home",
-  imports: [HeroComponent, CommonModule],
+  imports: [HeroComponent, RecipeListComponent],
   templateUrl: "./home.component.html",
   styleUrl: "./home.component.css",
 })
 export class HomeComponent {
   constructor(private httpClient: HttpClient) {}
 
-  recipes = {};
+  recipes: Database = {};
 
   ngOnInit() {
-    this.httpClient.get("assets/recipes.json").subscribe((data) => {
+    this.httpClient.get<Database>("assets/recipes.json").subscribe((data) => {
       this.recipes = data;
     });
   }
