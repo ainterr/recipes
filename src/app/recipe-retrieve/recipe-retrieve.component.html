@@ -1,0 +1,83 @@
+<div *ngIf="recipe" class="recipe py-3">
+  <article>
+    <header class="recipe-header">
+      <h2 class="recipe-title">{{ recipe.title }}</h2>
+      <p class="recipe-source">
+        <small>Source: {{ recipe.source }}</small>
+      </p>
+    </header>
+
+    <app-tag-list *ngIf="recipe.tags" [tags]="recipe.tags" />
+
+    <p *ngIf="recipe.description">{{ recipe.description }}</p>
+
+    <div *ngIf="recipe.ingredients">
+      <h3>Ingredients</h3>
+      <ul>
+        <ng-container *ngFor="let ingredient of recipe.ingredients">
+          <ng-container *ngIf="ingredient.hasOwnProperty('group')">
+            <h4 class="mt-2">{{ $any(ingredient).group }}</h4>
+            <li *ngFor="let ingredient of $any(ingredient).ingredients">
+              <app-ingredient [ingredient]="ingredient" />
+            </li>
+          </ng-container>
+          <ng-container *ngIf="!ingredient.hasOwnProperty('group')">
+            <li>
+              <app-ingredient [ingredient]="ingredient" />
+            </li>
+          </ng-container>
+        </ng-container>
+      </ul>
+    </div>
+
+    <div *ngIf="recipe.instructions">
+      <h3>Instructions</h3>
+      <ol>
+        <ng-container *ngFor="let instruction of recipe.instructions">
+          <ng-container *ngIf="instruction.hasOwnProperty('group')">
+            <h4 class="mt-2">{{ $any(instruction).group }}</h4>
+            <li *ngFor="let instruction of $any(instruction).instructions">
+              {{ instruction }}
+            </li>
+          </ng-container>
+          <ng-container *ngIf="!instruction.hasOwnProperty('group')">
+            <li>
+              {{ instruction }}
+            </li>
+          </ng-container>
+        </ng-container>
+      </ol>
+    </div>
+
+    <div *ngIf="recipe.notes">
+      <h3>Notes</h3>
+      <ul>
+        <ng-container *ngFor="let note of recipe.notes">
+          <ng-container *ngIf="note.hasOwnProperty('group')">
+            <h4 class="mt-2">{{ $any(note).group }}</h4>
+            <li *ngFor="let note of $any(note).notes">
+              {{ note }}
+            </li>
+          </ng-container>
+          <ng-container *ngIf="!note.hasOwnProperty('group')">
+            <li>
+              {{ note }}
+            </li>
+          </ng-container>
+        </ng-container>
+      </ul>
+    </div>
+
+    <p class="recipe-yield" *ngIf="recipe.yield">
+      <small>Yield: {{ recipe.yield }}</small>
+    </p>
+  </article>
+</div>
+
+<div class="pb-3">
+  <div class="text-center form-group">
+    <div class="btn-group" role="group" aria-label="Basic example">
+      <button class="btn btn-primary" (click)="goBack()">Back</button>
+    </div>
+  </div>
+</div>

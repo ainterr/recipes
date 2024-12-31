@@ -1,0 +1,6 @@
+<strong *ngIf="ingredient().qnty as qnty">{{ qnty }}</strong>
+{{ ingredient().name }}
+<ng-container *ngIf="ingredient().note as note"
+  >(<em>{{ note }}</em
+  >)</ng-container
+>
