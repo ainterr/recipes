@@ -31,7 +31,7 @@ fs.readdir(recipesPath, (err, files) => {
         return;
       }
 
-      if (stats.isFile() && filePath.slice(-5) == '.yaml') {
+      if (stats.isFile() && filePath.slice(-5) == ".yaml") {
         data[name] = yaml.load(fs.readFileSync(filePath, "utf8"));
 
         console.log("[+] parsed: " + file);
