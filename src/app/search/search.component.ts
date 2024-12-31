@@ -47,8 +47,4 @@ export class SearchComponent {
 
     this.filterRecipes(value);
   }
-
-  searchButton(event: Event) {
-    console.log("clicked - unhandled");
-  }
 }
