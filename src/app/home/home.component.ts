@@ -1,6 +1,6 @@
 import { Component } from "@angular/core";
-import { HttpClient } from "@angular/common/http";
 
+import { RECIPES } from "../recipes";
 import { Database } from "../types";
 import { HeroComponent } from "../hero/hero.component";
 import { SearchComponent } from "../search/search.component";
@@ -13,13 +13,5 @@ import { RecipeListComponent } from "../recipe-list/recipe-list.component";
   styleUrl: "./home.component.css",
 })
 export class HomeComponent {
-  constructor(private httpClient: HttpClient) {}
-
-  recipes: Database = {};
-
-  ngOnInit() {
-    this.httpClient.get<Database>("assets/recipes.json").subscribe((data) => {
-      this.recipes = data;
-    });
-  }
+  recipes: Database = RECIPES;
 }

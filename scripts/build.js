@@ -3,12 +3,12 @@ import * as path from "path";
 import * as yaml from "js-yaml";
 
 const recipesPath = path.join(import.meta.dirname, "..", "recipes");
-const outputFile = "recipes.json";
+const outputFile = "recipes.ts";
 const outputPath = path.join(
   import.meta.dirname,
   "..",
   "src",
-  "assets",
+  "app",
   outputFile,
 );
 
@@ -40,7 +40,12 @@ fs.readdir(recipesPath, (err, files) => {
       i++;
 
       if (i == files.length) {
-        fs.writeFileSync(outputPath, JSON.stringify(data, null, 2));
+        fs.writeFileSync(
+          outputPath,
+          "import { Database } from './types';\nexport const RECIPES: Database = " +
+            JSON.stringify(data, null, 2) +
+            ";",
+        );
         console.log("[+] wrote: " + outputFile);
       }
     });

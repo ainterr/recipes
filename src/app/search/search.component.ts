@@ -24,7 +24,7 @@ export class SearchComponent {
       Object.keys(this.unfiltered).forEach((slug) => {
         filter = filter.toLowerCase();
         const title = this.unfiltered[slug].title.toLowerCase();
-        const tags = this.unfiltered[slug].tags.map((tag) => {
+        const tags = (this.unfiltered[slug].tags || []).map((tag) => {
           return tag.toLowerCase();
         });
         if (

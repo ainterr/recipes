@@ -30,11 +30,12 @@ export type NoteGroup = {
 export type Recipe = {
   title: string;
   source: string;
-  tags: Tag[];
-  description: string;
+  tags?: Tag[];
+  description?: string;
   ingredients?: (Ingredient | IngredientGroup)[];
   instructions?: (Instruction | InstructionGroup)[];
   notes?: (Note | NoteGroup)[];
+  yield?: string;
 };
 
 export type Database = { [key: Slug]: Recipe };
