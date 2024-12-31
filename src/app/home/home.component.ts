@@ -3,11 +3,12 @@ import { HttpClient } from "@angular/common/http";
 
 import { Database } from "../types";
 import { HeroComponent } from "../hero/hero.component";
+import { SearchComponent } from "../search/search.component";
 import { RecipeListComponent } from "../recipe-list/recipe-list.component";
 
 @Component({
   selector: "app-home",
-  imports: [HeroComponent, RecipeListComponent],
+  imports: [HeroComponent, SearchComponent, RecipeListComponent],
   templateUrl: "./home.component.html",
   styleUrl: "./home.component.css",
 })
