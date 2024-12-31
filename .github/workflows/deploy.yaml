@@ -20,4 +20,4 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
             npm run build
-            npm run ng -- deploy --base-href=/recipes/ --name="Alex Interrante-Grant" --email="a.interrantegrant@gmail.com"
+            npm run ng -- deploy --base-href=/recipes/
