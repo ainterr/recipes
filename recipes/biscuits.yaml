@@ -1,0 +1,28 @@
+title: Biscuits
+source: Self
+tags:
+  - breakfast
+  - baking
+description: Easy (butter)milk biscuits.
+ingredients:
+  - qnty: 1 cup
+    name: flour
+    note: all-purpose
+  - qnty: 1 tsp
+    name: baking powder
+  - qnty: 3 tbsp
+    name: butter
+    note: cold, cut into small chunks
+  - name: buttermilk
+    note: substitute whole milk
+  - name: salt
+instructions:
+  - Preheat oven to 385°F.
+  - Mix flour, baking powder, and a pinch of salt in a bowl to combine.
+  - Add chunks of cold butter and pinch to squeeze into flour. It should have
+    the consistency of coarse sawdust, with small chunks of butter.
+  - Add buttermilk a splash at a time, just enough to combine into a shaggy
+    dough. Knead and fold to create layers.
+  - Cut with a biscuit cutter or into four rough quadrants.
+  - Bake 18-20 minutes, until lightly browned.
+yield: 4 biscuits
