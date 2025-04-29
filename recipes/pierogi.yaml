@@ -1,0 +1,72 @@
+title: Pierogi
+source: NYT Cooking
+tags:
+  - staple
+description: Classic Polish dumplings.
+ingredients:
+  - group: Dough
+    ingredients:
+      - qnty: 4 cups
+        name: flour
+        note: all-purpose
+      - qnty: 6 tbsp
+        name: butter
+        note: unsalted
+      - qnty: 2 large
+        name: eggs
+      - name: salt
+  - group: Filling
+    ingredients:
+      - qnty: 3/4 lb
+        name: potatoes
+        note: any waxy variety, peeled, 1/4 inch dice
+      - qnty: 2 large
+        name: onions
+        note: yellow, finely diced
+      - qnty: 8-12 oz
+        name: mushrooms
+        note: finely diced
+      - qnty: 1/2 cup
+        name: sour cream
+      - name: salt
+instructions:
+  - group: Dough
+    instructions:
+    - Whisk flour and a pinch of salt together in a large bowl.
+    - Heat 1 cup water and butter together until butter is melted.
+    - Gradually add the butter mixture to the flour mixture, stirring - the
+      dough will resemble a rough biscuit dough.
+    - Stir in the eggs until combined.
+    - Transfer to a floured work surface and knead 5-7 minutes.
+    - Cover dough and let stand at room temperature for 30 minutes.
+  - group: Filling
+    instructions:
+    - In a medium pot, cover diced potatoes with water, salt and bring to a
+      simmer. Cook until tender, about 25 minutes.
+    - In a large skillet, brown the onions and mushrooms.
+    - Drain the cooked potatoes, add to a large bowl with the onions and
+      mushrooms, and mix together with the sour cream. Salt to taste.
+  - group: Pierogi
+    instructions:
+    - Form the wrappers - cut the dough into four pieces, keeping the remaining
+      dough covered while you work. Roll out the dough to 1/8 inch and cut with
+      a 3 inch biscuit cutter or a glass. 1/4 of the dough should yield about
+      12-15 wrappers.
+    - Form the pierogi - wet the outer edge of a wrapper, spoon a small
+      tablespoon into the middle, fold in half, pinching together in the middle
+      and work downward with both hands to seal the pierogi. Try to avoid air
+      bubbles and make sure that the dough seals nicely. Transfer to a floured
+      baking sheet.
+    - Repeat with the remaining dough and filling.
+  - group: Cooking
+    instructions:
+    - Bring a large pot of water to boil. Salt.
+    - Boil the pierogi in batches to avoid crowding the pot. Cook until they
+      start to rise to the surface and then another minute or so, about 3-4
+      minutes total.
+    - Optionally, pan fry the pierogi in butter after boiling, 1-2 minutes per
+      side.
+notes:
+  - Peirogi can be frozen after forming and before cooking and cooked later
+    directly from frozen.
+yield: 48-60 pierogi
