@@ -19,7 +19,8 @@ ingredients:
   - group: Recipe
     ingredients:
       - qnty: 1 1/2 - 2 lbs
-        name: boneless, skinless chicken thighs
+        name: chicken thighs
+        note: boneless, skinless
       - qnty: 2 medium
         name: yellow onions
         note: thinly sliced
